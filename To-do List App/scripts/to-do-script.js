@@ -19,7 +19,7 @@ function renderTodoList() {
   todoList.forEach((todoObject, index) => {
     const {name, dueDate} = todoObject;
     const html = `
-      <div class="todo-name">&#183 ${name}</div>
+      <div class="todo-name">&#9679 ${name}</div>
       <div class="todo-date">${dueDate}</div>
       <button class="delete-button js-delete-button">X</button>
     `;
